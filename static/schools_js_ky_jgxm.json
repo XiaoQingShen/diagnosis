@@ -1,0 +1,12 @@
+{
+	"code":"40001",
+	"content":{
+		"zheight":4,
+		"datas":[
+			{"x":0,"y":0,"wid":2,"hei":4,"type":"myzb2","zbname":"教改项目平均综合得分","zbz":85,"zbdx":"南宁职业技术学院"},
+			{"x":2,"y":0,"wid":3,"hei":4,"type":"group","groupid":"6D6A32BAB8BB986DE050007F01006797"},
+			{"x":5,"y":0,"wid":3,"hei":4,"type":"group","groupid":"6D6A32BAB8BC986DE050007F01006797"},
+			{"x":8,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6D6A32BAB8BD986DE050007F01006797"}
+		]
+	}
+}

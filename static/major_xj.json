@@ -1,0 +1,15 @@
+{
+	"code":"40001",
+	"content":{
+		"zheight":6,
+		"datas":[
+			{"x":0,"y":0,"wid":2,"hei":4,"type":"myzb2","zbname":"教师自诊平均综合得分","zbz":90,"zbdx":"旅游管理"},
+			{"x":2,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6E553B38397BFB74E050007F01005A6A"},
+			{"x":6,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6E553B38397CFB74E050007F01005A6A"},
+			{"x":10,"y":0,"wid":2,"hei":1,"type":"myzb1","zbname":"教师诊断项目","zbfs":97,"zbtb":1,"zf":true,"tzdz":"/major_js?userid=111"},
+			{"x":10,"y":1,"wid":2,"hei":1,"type":"myzb1","zbname":"学生诊断项目","zbfs":94,"zbtb":2,"zf":true,"tzdz":""},
+			{"x":10,"y":2,"wid":2,"hei":1,"type":"myzb1","zbname":"课程诊断项目","zbfs":96,"zbtb":2,"zf":true,"tzdz":""},
+			{"x":10,"y":3,"wid":2,"hei":1,"type":"myzb1","zbname":"资源建设诊断项目","zbfs":96,"zbtb":4,"zf":true,"tzdz":""}
+		]
+	}
+}

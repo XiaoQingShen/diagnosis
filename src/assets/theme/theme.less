@@ -1,0 +1,286 @@
+.theme(
+	@fcolortime,  //顶部时间颜色
+	@fcoloropts,  //顶部右侧操作字体颜色
+	@f_hover_opts,  //顶部右侧操作hover字体颜色
+	@bgcolorfgx,   //首页操作分割线颜色
+	@fcolorusername,  //首页用户姓名
+	@bgcoloruseropts,    //首页用户操作导航背景色
+	@bgcoloruseroptsshadow   //首页用户操作导航阴影颜色
+	@fgxcoloruseropts,   //首页用户操作导航分割线颜色
+	@fcoloruseropts,   //首页用户操作导航字体颜色
+	@fcolorpagename,   //页面名称字体颜色
+	@fcolornavsname,  //全部系统页面正常字体颜色
+	@fcolornavsnamehover,  //全部系统页面hover字体颜色
+	@fcolornavsnameactive,  //全部系统页面active字体颜色
+	@bg_leftnavs,        //左侧导航背景颜色
+	@b_top_leftnavs,     //左侧导航上边框颜色
+	@b_right_leftnavs,   //左侧导航右边框颜色
+	@f_level1_li_leftnavs,  //左侧导航一级导航颜色
+	@b_bottom_level1_li_leftnavs,   //左侧导航一级导航下边框颜色
+	@bg_level1_li_leftnavs,     //左侧导航一级导航背景颜色
+	@bg_active_level1_li_leftnavs,   //左侧导航一级导航active状态背景色
+	@bg_level2_li_leftnavs,         //左侧导航二级导航背景颜色
+	@bg_hover_level2_li_leftnavs,    //左侧导航二级导航hover背景颜色
+	@f_hover_level2_li_leftnavs,   //左侧导航二级导航hover字体颜色
+	@bg_rightcenters,    //右侧中心背景色
+	@b_top_rightcenters,  //右侧中心上边框颜色
+	@f_pagename_centertop,   //右侧中心诊断对象字体颜色
+	@f_pageselect_centertop,   //右侧中心全局筛选条件字体颜色
+	@b_pageselect_centertop,    //右侧中心全局筛选条件边框颜色
+	@bg_pageselect_centertop,    //右侧中心全局筛选条件背景颜色
+	@bg_fgx_pname_centermain,     //右侧中心名称分割线背景色
+	@f_name_centermain,             //右侧中心名称字体颜色
+	@bg_groupcontainer_centermain,         //右侧中心groupcontainer背景颜色
+	@s_groupcontainer_centermain,     //右侧中心groupcontainer阴影颜色
+	@f_bt_group,             //组合模型标题
+	@f_bt_fxt,                //分子模型标题
+	@f_fxtselect_centermain,   // 分子模型筛选条件字体颜色
+	@b_fxtselect_centermain,   //分子模型筛选条件边框
+	@bg_fxtselect_centermain,   //分子模型筛选条件背景色
+	@f_fxt_breadcrumb,          // 分子模型面包屑导航字体颜色
+	@f_fxt_active_breadcrumb,    //分子模型面包屑导航可点击字体颜色 
+	@bg_group_download_opts,     //组合模型下载按钮操作导航背景颜色
+	@s_group_download_opts,     //组合模型下载按钮操作导航阴影色
+	@f_group_download_opts,     //组合模型正常字体颜色
+	@f_hover_group_download_opts,   //组合模型hover状态字体颜色
+	@bg_hover_group_download_opts_li,   //组合模型li hover背景颜色
+	@f_zb_center_name,         //指标名称字体颜色
+	@f_zb_center_fs,      //指标分数值
+	@f_zb_center_dw,      //指标分数单位
+	@f_zb_center_tb,      //指标同比
+	@f_zb_center_f,       //指标同比负 字体颜色
+	@f_zb_center_z,       //指标同比正 字体颜色
+	@b_mysearch_input,    //self搜索边框颜色
+	@bg_mysearch_input,   //self搜索背景颜色
+	@bg_mysearch_btn,     //self搜索按钮背景色
+	@f_mysearch_btn_p,     //self搜索按钮字体颜色
+	@f_zb2_zbname,      //指标2指标名称字体颜色
+	@f_zb2_zbz,         //指标2指标值字体颜色
+	@f_zb2_zbdx,         //指标2指标对象字体颜色
+	@f_zb3_zbname,       //指标3指标名称字体颜色
+	@f_zb3_zbz,           //指标3指标值字体颜色
+	@f_zb3_zbdx,          //指标3指标对象字体颜色
+	@f_zb3_zbdb_dx,         //指标3指标对比对象字体颜色
+	@f_zb3_zbdb_z,          //指标3指标对比值字体颜色
+	@f_gr_pname,          //个人信息名称
+	@f_gr_xm,             //个人信息 姓名
+	@f_gr_zd,             //个人信息  字段
+	@f_gr_zd_z            //个人信息 值
+	){
+	.header_date{
+		color:@fcolortime;
+	}
+	.header_time{
+		color:@fcolortime;
+	}
+	.header_opts{
+		color:@fcoloropts;
+	}
+	.header_opts >li:hover{
+		color:@f_hover_opts!important;
+	}
+	.header_opts_fgx{
+		background: @bgcolorfgx;
+	}
+	.header_username{
+		color: @fcolorusername;
+	}
+	.header_user_opts_nav{
+		background:@bgcoloruseropts;
+		box-shadow:0.02rem 0px 0.08rem @bgcoloruseroptsshadow; 
+	}
+	.header_user_opts_nav >ul >li{
+		border-bottom:1px solid @fgxcoloruseropts;
+	}
+	.header_user_opts_nav >ul >li >p{
+		color: @fcoloruseropts;
+	}
+	.pagename{
+		color: @fcolorpagename;
+	}
+	.navs_name{
+		color: @fcolornavsname;
+	}
+	.navcenters:hover .navs_name{
+		color: @fcolornavsnamehover;
+	}
+	.navs_name_active{
+		color:@fcolornavsnameactive!important;
+	}
+	.leftnavs_container{
+		background-color: @bg_leftnavs;
+		border-top:1px solid @b_top_leftnavs;
+		border-right:1px solid @b_right_leftnavs;
+	}
+	.rightcenters{
+		background-color: @bg_rightcenters;
+		border-top:1px solid @b_top_rightcenters;
+	}
+	.leftnavs_ul >li{
+		color:@f_level1_li_leftnavs;  //左侧导航一级导航颜色
+		border-bottom:1px solid  @b_bottom_level1_li_leftnavs;   //左侧导航一级导航下边框颜色
+		background-color: @bg_level1_li_leftnavs;     //左侧导航一级导航背景颜色
+	}
+	.leftnavs_ul >li:hover{
+		background-color: @bg_active_level1_li_leftnavs!important;
+	}
+	.activelevel1{
+		// background-color: @bg_active_level1_li_leftnavs!important;
+		background-color: @bg_hover_level2_li_leftnavs!important;
+	}
+	.activelevel1 >p{
+		color:@f_hover_level2_li_leftnavs!important;
+	}
+	.leftnavs_level2_ul >li{
+		background-color: @bg_level2_li_leftnavs;
+	}
+	.leftnavs_level2_ul >li:hover{
+		// background-color: @f_hover_level2_li_leftnavs!important;
+		background-color: @bg_active_level1_li_leftnavs;
+	}
+	.leftnavs_level2_ul >li:hover >p{
+		// color:@bg_hover_level2_li_leftnavs!important;
+	}
+	.activelevel2{
+		background-color: @bg_hover_level2_li_leftnavs!important;
+	}
+	.activelevel2 >p{
+		color:@f_hover_level2_li_leftnavs!important;
+	}
+	.center_pagename{
+		color:@f_pagename_centertop;
+	}
+	.center_select >select{
+		color:@f_pageselect_centertop;
+		border:1px solid @b_pageselect_centertop;
+		background:@bg_pageselect_centertop;
+	}
+	.center_select >input{
+		color:@f_pageselect_centertop;
+		border:1px solid @b_pageselect_centertop;
+		background:@bg_pageselect_centertop;
+	}
+	.nz_centermain_pnamefgx{
+		background-color: @bg_fgx_pname_centermain;
+	}
+	.nz_centermain_p{
+		color:@f_name_centermain;
+	}
+	.centermain_group_container{
+	    background:@bg_groupcontainer_centermain;
+	    box-shadow:5px 0px 16px @s_groupcontainer_centermain;
+	}
+	.group_top_title >p{
+		color:@f_bt_group;
+	}
+	.fxt_fbt{
+		color:@f_bt_fxt;
+	}
+	.select_container > select{
+		color:@f_fxtselect_centermain;   // 分子模型筛选条件字体颜色
+		border:1px solid @b_fxtselect_centermain;   //分子模型筛选条件边框
+		background-color: @bg_fxtselect_centermain   //分子模型筛选条件背景色
+	}
+	.mbx_nav_name{
+		color:@f_fxt_active_breadcrumb;
+	}
+	.charts_nav .mbx_nav:first-child >.mbx_nav_name{
+		color:@f_fxt_breadcrumb;
+	}
+	.charts_nav .mbx_nav:last-child >.mbx_nav_name{
+		color:@f_fxt_breadcrumb;
+	}
+	.mbx_nav_fonts{
+		color:@f_fxt_breadcrumb;
+	}
+	.group_download_opts{
+		background:@bg_group_download_opts;
+		box-shadow:2px 0px 8px @s_group_download_opts;
+	}
+	.group_download_opts >ul{
+		color:@f_group_download_opts;
+	}
+	.group_download_opts > ul >li:hover{
+		background:@bg_hover_group_download_opts_li;
+		color:@f_hover_group_download_opts;
+	}
+	.zb_center_name{
+		color: @f_zb_center_name;
+	}
+	.zb_center_fs{
+		color: @f_zb_center_fs;
+	}
+	.zb_center_dw{
+		color:@f_zb_center_dw;
+	}
+	.zb_center_tb{
+		color:@f_zb_center_tb;
+	}
+	.zb_center_f{
+		color:@f_zb_center_f;
+	}
+	.zb_center_z{
+		color:@f_zb_center_z;
+	}
+	.mysearch1_input{
+		border:1px solid @b_mysearch_input; 
+		background-color: @bg_mysearch_input;
+	}
+	.mysearch1_btn{
+		background-color: @bg_mysearch_btn;
+	}
+	.mysearch1_btn >p{
+		color: @f_mysearch_btn_p;
+	}
+	.myzb2_zbname >p{
+		color: @f_zb2_zbname;
+	}
+	.myzb2_center_z{
+		color: @f_zb2_zbz;
+	}
+	.myzb2_center_dx{
+		color: @f_zb2_zbdx;
+	}
+	.myzb3_zbname >p{
+		color: @f_zb3_zbname;
+	}
+	.myzb3_center_zbz{
+		color: @f_zb3_zbz;
+	}
+	.myzb3_center_dx{
+		color: @f_zb3_zbdx;
+	}
+	.myzb3_center_zbdb{
+		color: @f_zb3_zbdb_dx;
+	}
+	.myzb3_center_zbdb >span{
+		color: @f_zb3_zbdb_z;
+	}
+	.myzb4_zbname >p{
+		color: @f_zb3_zbname;
+	}
+	.myzb4_center_zbz{
+		color: @f_zb3_zbz;
+	}
+	.myzb4_center_dx{
+		color: @f_zb3_zbdx;
+	}
+	.myzb4_center_zbdb{
+		color: @f_zb3_zbdb_dx;
+	}
+	.myzb4_center_zbdb >span{
+		color: @f_zb3_zbdb_z;
+	}
+	.mypersonal1_pname >p{
+		color: @f_gr_pname;
+	}
+	.gr_tx_xm >p{
+		color:@f_gr_xm;
+	}
+	.gr_infos >p{
+		color: @f_gr_zd;
+	}
+	.gr_infos >p >span{
+		color: @f_gr_zd_z;
+	}
+}

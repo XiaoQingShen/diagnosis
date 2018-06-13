@@ -1,0 +1,16 @@
+{
+	"code":"40001",
+	"content":{
+		"zheight":6,
+		"datas":[
+			{"x":0,"y":0,"wid":2,"hei":4,"type":"myzb2","zbname":"诊断综合得分","zbz":87,"zbdx":"旅游学院"},
+			{"x":2,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6D6A32BAB8B0986DE050007F01006797"},
+			{"x":6,"y":0,"wid":2,"hei":1,"type":"myzb1","zbname":"专业诊断项目","zbfs":94,"zbtb":5,"zf":true,"tzdz":""},
+			{"x":6,"y":1,"wid":2,"hei":1,"type":"myzb1","zbname":"教师诊断项目","zbfs":83,"zbtb":3,"zf":false,"tzdz":"/college_js?userid=111"},
+			{"x":6,"y":2,"wid":2,"hei":1,"type":"myzb1","zbname":"学生诊断项目","zbfs":82,"zbtb":1,"zf":false,"tzdz":""},
+			{"x":6,"y":3,"wid":2,"hei":1,"type":"myzb1","zbname":"课程诊断项目","zbfs":80,"zbtb":2,"zf":true,"tzdz":""},
+			{"x":8,"y":0,"wid":4,"hei":8,"type":"group","groupid":"6D6A32BAB8C5986DE050007F01006797"},
+			{"x":0,"y":4,"wid":8,"hei":4,"type":"group","groupid":"6D6A32BAB8B1986DE050007F01006797"}
+		]
+	}
+}

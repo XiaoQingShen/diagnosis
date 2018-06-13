@@ -1,0 +1,10 @@
+{
+	"code":"40001",
+	"content":{
+		"zheight":6,
+		"datas":[
+			{"x":0,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6E3253EB449598F4E050007F01006DE8"},
+			{"x":4,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6E3253EB449698F4E050007F01006DE8"}
+		]
+	}
+}

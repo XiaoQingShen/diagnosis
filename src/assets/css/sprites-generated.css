@@ -1,0 +1,402 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-closea {
+  background-image: url(./sprites-generated.png);
+  background-position: -365px -413px;
+  width: 14px;
+  height: 14px;
+}
+.icon-comm_fgxa {
+  background-image: url(./sprites-generated.png);
+  background-position: -496px 0px;
+  width: 1px;
+  height: 26px;
+}
+.icon-downloada {
+  background-image: url(./sprites-generated.png);
+  background-position: -364px -287px;
+  width: 15px;
+  height: 14px;
+}
+.icon-downloadb {
+  background-image: url(./sprites-generated.png);
+  background-position: -383px -287px;
+  width: 15px;
+  height: 14px;
+}
+.icon-enlargea {
+  background-image: url(./sprites-generated.png);
+  background-position: -262px -431px;
+  width: 11px;
+  height: 12px;
+}
+.icon-enlargeb {
+  background-image: url(./sprites-generated.png);
+  background-position: -247px -431px;
+  width: 11px;
+  height: 12px;
+}
+.icon-leftnavs_down {
+  background-image: url(./sprites-generated.png);
+  background-position: -485px -305px;
+  width: 7px;
+  height: 11px;
+}
+.icon-leftnavs_js {
+  background-image: url(./sprites-generated.png);
+  background-position: 0px -470px;
+  width: 14px;
+  height: 16px;
+}
+.icon-leftnavs_js1 {
+  background-image: url(./sprites-generated.png);
+  background-position: -72px -470px;
+  width: 14px;
+  height: 16px;
+}
+.icon-leftnavs_kc {
+  background-image: url(./sprites-generated.png);
+  background-position: -54px -470px;
+  width: 14px;
+  height: 16px;
+}
+.icon-leftnavs_kc1 {
+  background-image: url(./sprites-generated.png);
+  background-position: -18px -470px;
+  width: 14px;
+  height: 16px;
+}
+.icon-leftnavs_up {
+  background-image: url(./sprites-generated.png);
+  background-position: -277px -431px;
+  width: 11px;
+  height: 7px;
+}
+.icon-leftnavs_xs {
+  background-image: url(./sprites-generated.png);
+  background-position: -422px -287px;
+  width: 16px;
+  height: 13px;
+}
+.icon-leftnavs_xs1 {
+  background-image: url(./sprites-generated.png);
+  background-position: -402px -287px;
+  width: 16px;
+  height: 13px;
+}
+.icon-leftnavs_yx {
+  background-image: url(./sprites-generated.png);
+  background-position: -36px -470px;
+  width: 14px;
+  height: 16px;
+}
+.icon-leftnavs_yx1 {
+  background-image: url(./sprites-generated.png);
+  background-position: -478px -390px;
+  width: 14px;
+  height: 16px;
+}
+.icon-leftnavs_zy {
+  background-image: url(./sprites-generated.png);
+  background-position: -383px -413px;
+  width: 14px;
+  height: 14px;
+}
+.icon-leftnavs_zy1 {
+  background-image: url(./sprites-generated.png);
+  background-position: -401px -413px;
+  width: 14px;
+  height: 14px;
+}
+.icon-nav_bottoma {
+  background-image: url(./sprites-generated.png);
+  background-position: -247px -225px;
+  width: 213px;
+  height: 16px;
+}
+.icon-pfa {
+  background-image: url(./sprites-generated.png);
+  background-position: 0px -448px;
+  width: 21px;
+  height: 18px;
+}
+.icon-pm1 {
+  background-image: url(./sprites-generated.png);
+  background-position: -380px -390px;
+  width: 45px;
+  height: 19px;
+}
+.icon-pm2 {
+  background-image: url(./sprites-generated.png);
+  background-position: -429px -390px;
+  width: 45px;
+  height: 18px;
+}
+.icon-pm3 {
+  background-image: url(./sprites-generated.png);
+  background-position: -329px -390px;
+  width: 47px;
+  height: 19px;
+}
+.icon-qbxt_navactivea {
+  background-image: url(./sprites-generated.png);
+  background-position: 0px 0px;
+  width: 244px;
+  height: 221px;
+}
+.icon-qbxt_navs_a_1a {
+  background-image: url(./sprites-generated.png);
+  background-position: -247px -346px;
+  width: 42px;
+  height: 40px;
+}
+.icon-qbxt_navs_a_2a {
+  background-image: url(./sprites-generated.png);
+  background-position: -341px -305px;
+  width: 40px;
+  height: 37px;
+}
+.icon-qbxt_navs_a_4a {
+  background-image: url(./sprites-generated.png);
+  background-position: -288px -390px;
+  width: 37px;
+  height: 37px;
+}
+.icon-qbxt_navs_a_6a {
+  background-image: url(./sprites-generated.png);
+  background-position: -360px -245px;
+  width: 49px;
+  height: 38px;
+}
+.icon-qbxt_navs_a_7a {
+  background-image: url(./sprites-generated.png);
+  background-position: -381px -346px;
+  width: 38px;
+  height: 37px;
+}
+.icon-qbxt_navs_a_9a {
+  background-image: url(./sprites-generated.png);
+  background-position: -413px -245px;
+  width: 46px;
+  height: 37px;
+}
+.icon-qbxt_navs_b_1a {
+  background-image: url(./sprites-generated.png);
+  background-position: -293px -346px;
+  width: 42px;
+  height: 40px;
+}
+.icon-qbxt_navs_b_2a {
+  background-image: url(./sprites-generated.png);
+  background-position: -297px -305px;
+  width: 40px;
+  height: 37px;
+}
+.icon-qbxt_navs_b_4a {
+  background-image: url(./sprites-generated.png);
+  background-position: -247px -390px;
+  width: 37px;
+  height: 37px;
+}
+.icon-qbxt_navs_b_6a {
+  background-image: url(./sprites-generated.png);
+  background-position: -307px -245px;
+  width: 49px;
+  height: 38px;
+}
+.icon-qbxt_navs_b_7a {
+  background-image: url(./sprites-generated.png);
+  background-position: -339px -346px;
+  width: 38px;
+  height: 37px;
+}
+.icon-qbxt_navs_b_9a {
+  background-image: url(./sprites-generated.png);
+  background-position: -247px -305px;
+  width: 46px;
+  height: 37px;
+}
+.icon-qbxt_navs_c_4a {
+  background-image: url(./sprites-generated.png);
+  background-position: -423px -346px;
+  width: 37px;
+  height: 37px;
+}
+.icon-qbxt_navsactivea {
+  background-image: url(./sprites-generated.png);
+  background-position: 0px -225px;
+  width: 243px;
+  height: 219px;
+}
+.icon-qbxt_navshovera {
+  background-image: url(./sprites-generated.png);
+  background-position: -248px 0px;
+  width: 244px;
+  height: 221px;
+}
+.icon-qbxta {
+  background-image: url(./sprites-generated.png);
+  background-position: -25px -448px;
+  width: 18px;
+  height: 18px;
+}
+.icon-qhdpa {
+  background-image: url(./sprites-generated.png);
+  background-position: -464px -346px;
+  width: 23px;
+  height: 18px;
+}
+.icon-qsta {
+  background-image: url(./sprites-generated.png);
+  background-position: -385px -305px;
+  width: 48px;
+  height: 30px;
+}
+.icon-qstb {
+  background-image: url(./sprites-generated.png);
+  background-position: -437px -305px;
+  width: 44px;
+  height: 26px;
+}
+.icon-sc1a {
+  background-image: url(./sprites-generated.png);
+  background-position: -437px -413px;
+  width: 14px;
+  height: 14px;
+}
+.icon-sc1b {
+  background-image: url(./sprites-generated.png);
+  background-position: -307px -287px;
+  width: 15px;
+  height: 14px;
+}
+.icon-sca {
+  background-image: url(./sprites-generated.png);
+  background-position: -326px -287px;
+  width: 15px;
+  height: 14px;
+}
+.icon-scb {
+  background-image: url(./sprites-generated.png);
+  background-position: -345px -287px;
+  width: 15px;
+  height: 14px;
+}
+.icon-useroptsa {
+  background-image: url(./sprites-generated.png);
+  background-position: -292px -431px;
+  width: 11px;
+  height: 6px;
+}
+.icon-usertx {
+  background-image: url(./sprites-generated.png);
+  background-position: -463px -245px;
+  width: 28px;
+  height: 28px;
+}
+.icon-xza {
+  background-image: url(./sprites-generated.png);
+  background-position: -460px -287px;
+  width: 14px;
+  height: 12px;
+}
+.icon-xzb {
+  background-image: url(./sprites-generated.png);
+  background-position: -442px -287px;
+  width: 14px;
+  height: 12px;
+}
+.icon-yh_mr_tx {
+  background-image: url(./sprites-generated.png);
+  background-position: -247px -245px;
+  width: 56px;
+  height: 56px;
+}
+.icon-yj1a {
+  background-image: url(./sprites-generated.png);
+  background-position: -464px -368px;
+  width: 15px;
+  height: 15px;
+}
+.icon-yj1b {
+  background-image: url(./sprites-generated.png);
+  background-position: -66px -448px;
+  width: 15px;
+  height: 15px;
+}
+.icon-yja {
+  background-image: url(./sprites-generated.png);
+  background-position: -464px -225px;
+  width: 15px;
+  height: 15px;
+}
+.icon-yjb {
+  background-image: url(./sprites-generated.png);
+  background-position: -47px -448px;
+  width: 15px;
+  height: 15px;
+}
+.icon-zb_db {
+  background-image: url(./sprites-generated.png);
+  background-position: -478px -287px;
+  width: 13px;
+  height: 12px;
+}
+.icon-zb_down {
+  background-image: url(./sprites-generated.png);
+  background-position: -483px -368px;
+  width: 9px;
+  height: 10px;
+}
+.icon-zb_search {
+  background-image: url(./sprites-generated.png);
+  background-position: -347px -413px;
+  width: 14px;
+  height: 14px;
+}
+.icon-zb_search1 {
+  background-image: url(./sprites-generated.png);
+  background-position: -329px -413px;
+  width: 14px;
+  height: 14px;
+}
+.icon-zb_tz {
+  background-image: url(./sprites-generated.png);
+  background-position: -473px -413px;
+  width: 12px;
+  height: 12px;
+}
+.icon-zb_up {
+  background-image: url(./sprites-generated.png);
+  background-position: -483px -225px;
+  width: 9px;
+  height: 10px;
+}
+.icon-zja {
+  background-image: url(./sprites-generated.png);
+  background-position: -419px -413px;
+  width: 14px;
+  height: 14px;
+}
+.icon-zjb {
+  background-image: url(./sprites-generated.png);
+  background-position: -455px -413px;
+  width: 14px;
+  height: 14px;
+}

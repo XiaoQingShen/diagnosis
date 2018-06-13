@@ -1,0 +1,23 @@
+{
+	"code":"40001",
+	"content":[
+		{"level1name":"院校发展中心","path":"","level2list":[
+			{"level2name":""}
+		]},
+		{"level1name":"专业发展中心","path":"","level2list":[
+			{"level2name":""}
+		]},
+		{"level1name":"教师发展中心","path":"","level2list":[
+			{"level2name":"自诊画像","path":""},
+			{"level2name":"教师结构","path":""},
+			{"level2name":"育人管理","path":""},
+			{"level2name":"成长培养","path":""}
+		]},
+		{"level1name":"学生发展中心","path":"","level2list":[
+			{"level2name":""}
+		]},
+		{"level1name":"课程发展中心","path":"","level2list":[
+			{"level2name":""}
+		]}
+	]
+}

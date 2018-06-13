@@ -1,0 +1,19 @@
+{
+	"code":"40001",
+	"content":{
+		"zheight":6,
+		"datas":[
+			{"x":0,"y":0,"wid":2,"hei":4,"type":"myzb2","zbname":"教改科研综合得分","zbz":80,"zbdx":"南宁职业技术学院"},
+			{"x":2,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6D6A32BAB8B7986DE050007F01006797"},
+			{"x":6,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6D6A32BAB8B8986DE050007F01006797"},
+			{"x":10,"y":0,"wid":2,"hei":1,"type":"myzb1","zbname":"教改项目","zbfs":85,"zbtb":1,"zf":true,"tzdz":"/school_js_ky_jgxm?userid=111"},
+			{"x":10,"y":1,"wid":2,"hei":1,"type":"myzb1","zbname":"科研项目","zbfs":90,"zbtb":5,"zf":true,"tzdz":""},
+			{"x":10,"y":2,"wid":2,"hei":1,"type":"myzb1","zbname":"论文","zbfs":76,"zbtb":1,"zf":false,"tzdz":""},
+			{"x":10,"y":3,"wid":2,"hei":1,"type":"myzb1","zbname":"专利","zbfs":80,"zbtb":2,"zf":false,"tzdz":""},
+			{"x":10,"y":4,"wid":2,"hei":1,"type":"myzb1","zbname":"编著","zbfs":72,"zbtb":2,"zf":true,"tzdz":""},
+			{"x":10,"y":5,"wid":2,"hei":1,"type":"myzb1","zbname":"成果获奖","zbfs":77,"zbtb":1,"zf":true,"tzdz":""},
+			{"x":0,"y":4,"wid":5,"hei":4,"type":"group","groupid":"6D6A32BAB8B9986DE050007F01006797"},
+			{"x":5,"y":4,"wid":5,"hei":4,"type":"group","groupid":"6D6A32BAB8BA986DE050007F01006797"}
+		]
+	}
+}

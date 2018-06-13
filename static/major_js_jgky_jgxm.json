@@ -1,0 +1,13 @@
+{
+	"code":"40001",
+	"content":{
+		"zheight":8,
+		"datas":[
+			{"x":0,"y":0,"wid":2,"hei":4,"type":"myzb4","zbname":"教师教改项目平均综合得分","zbz":92,"zbdx":"旅游管理","zbdb1":"同学院","zbdb1z":85,"zbdb2":"全校","zbdb2z":85},
+			{"x":2,"y":0,"wid":3,"hei":4,"type":"group","groupid":"6D6A32BAB8DC986DE050007F01006797"},
+			{"x":5,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6D6A32BAB8DD986DE050007F01006797"},
+			{"x":9,"y":0,"wid":3,"hei":4,"type":"group","groupid":"6D6A32BAB8DE986DE050007F01006797"},
+			{"x":0,"y":4,"wid":4,"hei":4,"type":"group","groupid":"6D6A32BAB8DF986DE050007F01006797"}
+		]
+	}
+}

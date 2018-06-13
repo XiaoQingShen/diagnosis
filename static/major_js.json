@@ -1,0 +1,22 @@
+{
+	"code":"40001",
+	"content":{
+		"zheight":6,
+		"datas":[
+			{"x":0,"y":0,"wid":3,"hei":2,"type":"myzb4","zbname":"教师诊断平均综合得分","zbz":97,"zbdx":"旅游管理","zbdb1":"同学院","zbdb1z":92,"zbdb2":"全校","zbdb2z":85},
+			{"x":0,"y":2,"wid":3,"hei":2,"type":"myzb3","zbname":"教师自诊平均综合得分","zbz":90,"zbdx":"旅游管理","zbdb1":"同学院","zbdb1z":92},
+			{"x":3,"y":0,"wid":3,"hei":4,"type":"group","groupid":"6D6A32BAB8D2986DE050007F01006797"},
+			{"x":6,"y":0,"wid":4,"hei":4,"type":"group","groupid":"6D6A32BAB8D3986DE050007F01006797"},
+			{"x":10,"y":0,"wid":2,"hei":1,"type":"myzb1","zbname":"师德修养","zbfs":97,"zbtb":1,"zf":true,"tzdz":""},
+			{"x":10,"y":1,"wid":2,"hei":1,"type":"myzb1","zbname":"社会服务","zbfs":94,"zbtb":2,"zf":true,"tzdz":""},
+			{"x":10,"y":2,"wid":2,"hei":1,"type":"myzb1","zbname":"教学质量","zbfs":96,"zbtb":2,"zf":true,"tzdz":""},
+			{"x":10,"y":3,"wid":2,"hei":1,"type":"myzb1","zbname":"成长培养","zbfs":96,"zbtb":4,"zf":true,"tzdz":""},
+			{"x":10,"y":4,"wid":2,"hei":1,"type":"myzb1","zbname":"教改科研","zbfs":95,"zbtb":3,"zf":true,"tzdz":"/major_js_jgky?userid=111"},
+			{"x":10,"y":5,"wid":2,"hei":1,"type":"myzb1","zbname":"数量结构","zbfs":95,"zbtb":1,"zf":true,"tzdz":""},
+			{"x":10,"y":6,"wid":2,"hei":1,"type":"myzb1","zbname":"育人管理","zbfs":93,"zbtb":1,"zf":true,"tzdz":""},
+			{"x":0,"y":4,"wid":4,"hei":4,"type":"group","groupid":"6D6A32BAB8D4986DE050007F01006797"},
+			{"x":4,"y":4,"wid":3,"hei":4,"type":"group","groupid":"6D6A32BAB8D5986DE050007F01006797"},
+			{"x":7,"y":4,"wid":3,"hei":4,"type":"group","groupid":"6D6A32BAB8D6986DE050007F01006797"}
+		]
+	}
+}
